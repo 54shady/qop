@@ -12,6 +12,10 @@ Using pandoc(recommend)
 
 	for f in `ls *.md`; do echo $f; pandoc $f -o ${f%.md}.rst; done
 
+Make the target
+
+	make html (for example)
+
 Copy target build files to gitpage
 
 	cp _build/html/* /path/to/gitpage/

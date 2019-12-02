@@ -76,3 +76,5 @@ latex_elements = {
 \setmonofont[ Path = /usr/share/fonts/truetype/unifont/ ]{unifont.ttf} % set path where you installed unifont.ttf
 ''',
 }
+
+master_doc = 'index'
